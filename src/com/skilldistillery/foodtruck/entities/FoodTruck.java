@@ -13,7 +13,7 @@ public class FoodTruck {
 	// Constructor -easier than setters for this design
 
 	public FoodTruck(String name, String foodType, int truckRating) {
-		this.nextTruckId = nextTruckId++;// stretch goal incrementing
+		this.truckId = nextTruckId++;// stretch goal incrementing - had to revise was set wrong
 		this.name = name;
 		this.foodType = foodType;
 		this.rating = truckRating;
