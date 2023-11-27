@@ -18,7 +18,7 @@ public class FoodTruckApp {
 			System.out.println("Enter the name of the food truck (type 'quit' to stop): ");
 			String truckName = scanner.nextLine();
 
-			if (truckName.equalsIgnoreCase("quit")) {
+			if (truckName.equalsIgnoreCase("quit")) { // want to account for capitals and variations
 				break; // Allows for the user to quit
 			}
 
